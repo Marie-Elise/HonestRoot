@@ -2,7 +2,7 @@
 
 <div id="content" class="container"
 <div class="row">
-  <h1 class="col-sm-12">Contenu principal</h1>
+  <h1 class="col-sm-12"></h1>
 </div>
 
 <div class="row">

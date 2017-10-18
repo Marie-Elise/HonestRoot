@@ -7,20 +7,20 @@ body{
 h1, h2, h3, h4, h5, h6{
   font-family: 'Hammersmith One', sans-serif;
   text-transform: uppercase;
-  color: #E91E63 ;
+  color: #71AC29 ;
 }
 
+
 a{
-  color:#f1c40f;
+  color:#71AC29;
   text-decoration: none;
 }
 a:hover{
-  color:#f39c12;
+  color:#71AC29;
   text-decoration: none;
 }
 
 header#header{
-  background:#ecf0f1;
   padding-top:30px;
   padding-bottom:30px;
 }
@@ -34,5 +34,25 @@ header#header{
 
 .menu_header{
   float: right;
-  color:#E91E63;
+  list-style: none;
+}
+
+.menu_header li {
+  display: inline-block;
+}
+
+.menu_header a {
+  color: #000000;
+  font-family: 'Muli', sans-serif;
+}
+
+.homesmoothies{
+  max-width: 1600px;
+  height: 650px;
+}
+
+.homebutton{
+    color: #71AC29 ;
+    text-align: center;
+    padding-top: 30px;
 }

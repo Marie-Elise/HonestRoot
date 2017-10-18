@@ -1,20 +1,20 @@
 <?php
-function ajout_custom_type_film() {
-  $post_type = "film";
+function ajout_custom_type_smoothie() {
+  $post_type = "smoothie";
 $labels = array(
-        'name'               => 'Films',
-        'singular_name'      => 'Film',
-        'all_items'          => 'Tous les films',
-        'add_new'            => 'Ajouter un film',
-        'add_new_item'       => 'Ajouter un nouveau film',
-        'edit_item'          => "Modifier le film",
-        'new_item'           => 'Nouveau film',
-        'view_item'          => "Voir le film",
-        'search_items'       => 'Chercher un film',
+        'name'               => 'Smoothies',
+        'singular_name'      => 'Smoothie',
+        'all_items'          => 'Tous les smoothies',
+        'add_new'            => 'Ajouter un smoothie',
+        'add_new_item'       => 'Ajouter un nouveau smoothie',
+        'edit_item'          => "Modifier le smoothie",
+        'new_item'           => 'Nouveau smoothie',
+        'view_item'          => "Voir le smoothie",
+        'search_items'       => 'Chercher un smoothie',
         'not_found'          => 'Pas de résultat',
         'not_found_in_trash' => 'Pas de résultat',
-        'parent_item_colon'  => 'Film parent :',
-        'menu_name'          => 'Films',
+        'parent_item_colon'  => 'Smoothie parent :',
+        'menu_name'          => 'Smoothies',
     );
     $args = array(
         'labels'              => $labels,
@@ -36,7 +36,7 @@ $labels = array(
     register_post_type($post_type, $args );
 
     $taxonomy = "genre";
-    $object_type = array("film");
+    $object_type = array("smoothie");
     $args = array(
           'label' => __( 'Genre' ),
           'rewrite' => array( 'slug' => 'genre' ),
@@ -44,17 +44,7 @@ $labels = array(
       );
       register_taxonomy( $taxonomy, $object_type, $args );
 
-      $taxonomy = "annee";
-      $object_type = array("film");
-      $args = array(
-            'label' => __( 'Année de production' ),
-            'rewrite' => array( 'slug' => 'genre' ),
-            'hierarchical' => false,
-        );
-        register_taxonomy( $taxonomy, $object_type, $args );
-
-
 
 
 }
-add_action( 'init', 'ajout_custom_type_film' );
+add_action( 'init', 'ajout_custom_type_smoothie' );
