@@ -33,8 +33,10 @@ header#header{
 }
 
 .menu_header{
+  font-family: 'Muli', sans-serif;
   float: right;
   list-style: none;
+  padding-top: 20px;
 }
 
 .menu_header li {
@@ -43,7 +45,11 @@ header#header{
 
 .menu_header a {
   color: #000000;
-  font-family: 'Muli', sans-serif;
+  padding-left: 50px;
+}
+
+.menu_header a:hover{
+  color: #71AC29;
 }
 
 .homesmoothies{
