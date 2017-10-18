@@ -21,13 +21,13 @@ if ( $the_query->have_posts() ) {
       </div>
       <div class="row">
 
-      <img src="<?= IMAGES_URL; ?>/homesmoothies.png" alt="<?php bloginfo("title"); ?>" class="homesmoothies"/>
 
+      <img src="<?= IMAGES_URL; ?>/homesmoothies.png" alt="<?php bloginfo("title"); ?>" class="homesmoothies "/>
 
       <div class="homebutton">
-
       <h4><a href="#">Décrouvrez-nous !</a></h4>
 
+      <a href="#">
       <svg width="21px" height="19px" viewBox="0 0 21 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g id="HOME" transform="translate(-710.000000, -981.000000)" fill="#71AC29">
@@ -35,6 +35,8 @@ if ( $the_query->have_posts() ) {
           </g>
         </g>
       </svg>
+      </a>
+
     </div>
 
     <?php

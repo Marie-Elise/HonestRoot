@@ -21,6 +21,7 @@ a:hover{
 }
 
 header#header{
+  background-color: #ffffff;
   padding-top:30px;
   padding-bottom:30px;
 }
@@ -50,10 +51,11 @@ header#header{
 
 .menu_header a:hover{
   color: #71AC29;
+  padding-left: 50px;
 }
 
 .homesmoothies{
-  max-width: 1600px;
+  max-width: 1800px;
   height: 650px;
 }
 
