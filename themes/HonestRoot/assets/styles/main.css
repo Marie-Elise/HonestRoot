@@ -7,7 +7,6 @@ body{
 h1, h2, h3, h4, h5, h6{
   font-family: 'Hammersmith One', sans-serif;
   text-transform: uppercase;
-  color: #71AC29 ;
 }
 
 
@@ -54,6 +53,7 @@ header#header{
   padding-left: 50px;
 }
 
+/***** HOME ******/
 .homesmoothies{
   max-width: 1800px;
   height: 650px;
@@ -63,4 +63,17 @@ header#header{
     color: #71AC29 ;
     text-align: center;
     padding-top: 30px;
+}
+
+/***** CONTACT ******/
+.titlecontact{
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  color: #000000 ;
+}
+
+.smoothiecontact{
+  width: 900px;
+  height: 900px;
+
 }
