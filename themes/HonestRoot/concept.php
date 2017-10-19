@@ -28,8 +28,6 @@ if ( $the_query->have_posts() ) {
       <div class="row">
 
 
-
-
       <div class="homebutton">
       <h4><a href="#">Décrouvrez la page concept !</a></h4>
 
