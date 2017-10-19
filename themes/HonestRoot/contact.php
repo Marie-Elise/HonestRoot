@@ -21,23 +21,23 @@ if ( $the_query->have_posts() ) {
     $the_query->the_post();
     ?>
 
-    <div id="content" class="container">
-      <div class="row">
-        <h1 class="col-sm-12"></h1>
-      </div>
+    <div id="conten" class="container-fluid">
 
       <div class="row">
 
-        <div class="col-sm-4">
+        <div class="col-sm-2">
         <img src="<?= IMAGES_URL; ?>/smoothiecontact.png" alt="<?php bloginfo("title"); ?>" class="smoothiecontact"/>
         </div>
+
+
 
       <div class="col-sm-8">
       <h2 class="titlecontact">RESTONS EN CONTACT !</h2>
 
-      <p class="texte contact">
+      <p class="textecontact">
         Découvrez comment mettre la main sur ces délicieux smoothies bio en contactant HonestRoot sur :
       </p>
+
 
 
 <svg width="57px" height="43px" viewBox="0 0 57 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -55,10 +55,9 @@ if ( $the_query->have_posts() ) {
 
 
 
+
+
 <svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="PAGE-CONTACT" transform="translate(-368.000000, -636.000000)">
             <g id="CONTENU" transform="translate(342.000000, 150.000000)">

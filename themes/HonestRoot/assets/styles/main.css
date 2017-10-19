@@ -5,7 +5,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Muli', sans-serif;
   text-transform: uppercase;
 }
 
@@ -66,13 +66,21 @@ header#header{
 }
 
 /***** CONTACT ******/
+
 .titlecontact{
   font-family: 'Muli', sans-serif;
-  text-transform: uppercase;
+  color: #71AC29 ;
+  text-align: center;
+}
+
+.textecontact{
+  font-family: 'Nunito', sans-serif;
   color: #000000 ;
+  text-align: center;
 }
 
 .smoothiecontact{
-  width: 100%;
+  width: 150%;
   height: auto;
+  margin-left:-100px;
 }
