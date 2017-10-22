@@ -1,19 +1,5 @@
 <?php get_header(); //appel du template header.php  ?>
 
-<?php
-$args=array(
-  'post_type' => 'smoothie',
-  'posts_per_page' => 6,
-  'orderby' => 'date',
-  'order'   => 'DESC',
-);
-
-$the_query = new WP_Query( $args );
-// The Loop
-if ( $the_query->have_posts() ) {
-  while ( $the_query->have_posts() ) {
-    $the_query->the_post();
-    ?>
 
     <div id="content" class="container">
       <div class="row">
@@ -36,19 +22,9 @@ if ( $the_query->have_posts() ) {
       </svg>
     </div>
 
-    <?php
-        }
-      }
-      else {
-        echo 'there are no post';
-      }
-      /* Restore original Post Data */
-      wp_reset_postdata();
-   ?>
+
  </div>
-  <div class="pagination">
-    <?php wp_pagenavi(); ?>
-  </div>
+
 </div> <!-- /content -->
 
 <?php get_footer(); //appel du template footer.php ?>
