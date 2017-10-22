@@ -9,12 +9,11 @@ h1, h2, h3, h4, h5, h6{
   text-transform: uppercase;
 }
 
-
-a{
+h4 a{
   color:#71AC29;
   text-decoration: none;
 }
-a:hover{
+h4 a:hover{
   color:#71AC29;
   text-decoration: none;
 }
@@ -44,6 +43,7 @@ header#header{
 }
 
 .menu_header a {
+  text-decoration: none;
   color: #000000;
   padding-left: 50px;
 }
@@ -51,9 +51,12 @@ header#header{
 .menu_header a:hover{
   color: #71AC29;
   padding-left: 50px;
+  text-decoration: none;
 }
 
+
 /***** HOME ******/
+
 .homesmoothies{
   max-width: 1800px;
   height: 650px;
@@ -64,6 +67,38 @@ header#header{
     text-align: center;
     padding-top: 30px;
 }
+
+/***** PRODUITS slider ******/
+
+
+.owl-item > div {
+  cursor: pointer;
+  margin: 17% 17%;
+  transition: margin 0.2s ease;
+}
+
+.owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+
+.owl-item:not(.center) > div h2.titleproduit a {
+  visibility: hidden;
+}
+
+.owl-item.center > div h2.titleproduit a {
+  text-decoration: none;
+  color: #71AC29 ;
+  font-size:300px;
+  float: left;
+  margin-left: -350px;
+  margin-top: -200px;
+}
+
+.owl-item:not(.center) > div:hover {
+  opacity: .75;
+}
+
 
 /***** CONTACT ******/
 

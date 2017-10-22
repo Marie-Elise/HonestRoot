@@ -1,53 +1,48 @@
+<?php get_header(); //appel du template header.php  ?>
 
-<?php
+<div id="content" class="container-fuid">
 
-/*Template name: produits */
-
-
-get_header(); //appel du template header.php  ?>
-
-<?php
-$args=array(
-  'post_type' => 'smoothie',
-  'posts_per_page' => 6,
-  'orderby' => 'date',
-  'order'   => 'DESC',
-);
-
-$the_query = new WP_Query( $args );
-// The Loop
-if ( $the_query->have_posts() ) {
-  while ( $the_query->have_posts() ) {
-    $the_query->the_post();
+  <div class="owl-carousel">
+    <?php
+    $args=array(
+      'post_type' => 'smoothie',
+      'posts_per_page' => 12,
+      'orderby' => 'date',
+	     'order'   => 'DESC',
+    );
+    $the_query = new WP_Query( $args );
+    // The Loop
+    if ( $the_query->have_posts() ) {
+    while ( $the_query->have_posts() ) {
+        $the_query->the_post();
     ?>
 
-    <div id="content" class="container">
-      <div class="row">
-        <h1 class="col-sm-12"></h1>
+      <div class="item">
+        <?php
+            if(has_post_thumbnail())
+            {
+              echo '<div class="thumbnail">';
+                the_post_thumbnail("hub_smoothie_thumbnail");
+              echo '</div>';
+            }
+         ?>
+
+        <h2 class=" titleproduit"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+
       </div>
-      <div class="row">
 
 
-
-
-      <div class="homebutton">
-      <h4><a href="#">Décrouvrez la page produits !</a></h4>
-
-
-      </a>
-
-    </div>
-
-    <?php
+      <?php
         }
-      }
-      else {
-        echo 'there are no post';
       }
       /* Restore original Post Data */
       wp_reset_postdata();
    ?>
- </div>
+
+  </div>
+
+
+<!-- Pagination du site -->
   <div class="pagination">
     <?php wp_pagenavi(); ?>
   </div>
