@@ -3,8 +3,6 @@ jQuery(document).ready(function() {
     loop:true,
     center: true,
     margin:5,
-    nav:true,
-    rtl:true
     responsive:{
        0:{
            items:1

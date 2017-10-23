@@ -25,12 +25,11 @@
                 the_post_thumbnail("hub_smoothie_thumbnail");
               echo '</div>';
             }
+            $cat = wp_get_post_terms($post->ID, 'genre', array("fields" => "all"));
          ?>
 
-        <h2 class=" titleproduit"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-
+  <h2 class="titleproduit <?= $cat[0]->slug ?>"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
       </div>
-
 
       <?php
         }

@@ -86,19 +86,45 @@ header#header{
   visibility: hidden;
 }
 
-.owl-item.center > div h2.titleproduit a {
+.owl-item.center > div h2.detox a {
   text-decoration: none;
-  color: #71AC29 ;
-  font-size:300px;
+  color: #A0BE7D;
+  font-size:350px;
   float: left;
-  margin-left: -350px;
+  margin-left: -420px;
+  margin-top: -200px;
+}
+
+.owl-item.center > div h2.energie a {
+  text-decoration: none;
+  color: #FBE58A;
+  font-size:350px;
+  float: left;
+  margin-left: -600px;
+  margin-top: -200px;
+}
+
+.owl-item.center > div h2.esprit a {
+  text-decoration: none;
+  color: #6A6E8D;
+  font-size:350px;
+  float: left;
+  margin-left: -450px;
+  margin-top: -200px;
+}
+
+.owl-item.center > div h2.force a {
+  text-decoration: none;
+  color: #F98196;
+  font-size:350px;
+  float: left;
+  margin-left: -400px;
   margin-top: -200px;
 }
 
 .owl-item:not(.center) > div:hover {
   opacity: .75;
 }
-
 
 /***** CONTACT ******/
 
