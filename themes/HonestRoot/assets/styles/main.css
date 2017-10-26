@@ -1,5 +1,6 @@
 body{
   margin:0;
+  padding: 0;
   font-size:16px;
   font-family: 'Nunito', sans-serif;
 }
@@ -18,17 +19,16 @@ h4 a:hover{
   text-decoration: none;
 }
 
-header#header{
-  background-color: #ffffff;
-  padding-top:30px;
-  padding-bottom:30px;
-}
-
 .logo{
   float: left;
   max-width: 150px;
   height: auto;
   padding-right: 20px;
+}
+
+header#header{
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .menu_header{
@@ -45,12 +45,12 @@ header#header{
 .menu_header a {
   text-decoration: none;
   color: #000000;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
 .menu_header a:hover{
   color: #71AC29;
-  padding-left: 50px;
+  padding-left: 40px;
   text-decoration: none;
 }
 
@@ -130,11 +130,306 @@ header#header{
   opacity: .75;
 }
 
-/***** PRODUITS single slider ******/
+/***** PRODUITS single.php slider ******/
 
-.right{
-  background-color: #A7B635;
+.produit {
+  max-hesight: 100vh;
 }
+
+
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .left-part-container-1 {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .left-part-container-2 {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .left-part {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+    .left-part .fond-text {
+        z-index: -1;
+        font-family: 'Nunito', sans-serif;
+        font-size: 450%;
+        color: #A7B635;
+        max-width: 80%;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+    }
+    .left-part .image-png {
+        display: inline-block;
+        position: absolute;
+        max-width: 55%;
+        height: auto;
+        right: -20%;
+        top: -8%;
+
+    }
+    .left-part .image-png img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .titre-categorie {
+      color: white;
+      font-size:75px;
+      position: absolute;
+      right: -20%;
+      bottom: 30%;
+      white-space: nowrap;
+      display: inline-block;
+      -webkit-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+      -webkit-transform-origin: left top;
+              transform-origin: left top;
+      overflow: auto;
+      max-width: calc(100vh - 200px);
+    }
+
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
+    .left-part-container-1 {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .left-part-container-2 {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .left-part {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+    .left-part .fond-text {
+        font-family: 'Nunito', sans-serif;
+        font-size: 320%;
+        color: #A7B635;
+        max-width: 50%;
+        display: inline-block;
+        position: absolute;
+        margin-top: 6%;
+        left: 0;
+    }
+    .left-part .image-png {
+        display: inline-block;
+        position: absolute;
+        max-width: 100%;
+        height: auto;
+        right: -35%;
+        margin-top: 25%;
+    }
+    .left-part .image-png img {
+        max-height: 120%;
+        max-width: 120%;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .right-part-container-1 {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        max-width: 50%;
+        text-align: center;
+        background-color: #A7B635;
+        height: 90%;
+        overflow: hidden;
+        box-shadow: -4px 0px 6px -2px rgba(0, 0, 0, 0.34);
+    }
+    .right-part-container-2 {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .right-part {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+    .right-part .produit-hr {
+        max-width: 20%;
+        color: white;
+        display: block;
+        border: 0;
+        border-top: 2px solid #ffffff;
+    }
+    /* Title */
+    .right-part .titre-produit {
+        font-family: 'Muli', sans-serif;
+        margin: 80px 100px 50px 100px;
+        font-size: 150%;
+        color: white;
+    }
+    /* 1st Information */
+    .right-part .informations {
+        font-family: 'Nunito', sans-serif;
+        margin: 20px 80px;
+        color: white;
+    }
+    .right-part .informations .sous-titre {
+        text-align: center;
+    }
+    .right-part .informations .texte-normale {
+        text-align: justify;
+        text-align-last: left;
+    }
+    /* 2nd Information */
+    .right-part .superfood {
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        margin: 40px 80px;
+        color: white;
+    }
+    .right-part .superfood .sous-titre {
+        text-align: center;
+    }
+    .right-part .superfood .texte-normale {
+        text-align: justify;
+        text-align-last: left;
+    }
+    /* Menu infors nutrion */
+    .right-part .nutrition {
+        font-family: 'Nunito', sans-serif;
+        text-align: justify;
+        margin: 40px 160px;
+        color: white;
+    }
+    .right-part .nutrition .sous-titre {
+        text-align: center;
+    }
+    #menu-container {
+        display: table;
+        width: 100%;
+    }
+    .table-row {
+        display: table-row;
+    }
+    .table-column {
+        padding: 5px 0px;
+        display: table-cell;
+    }
+
+    .left {
+        text-align: left;
+    }
+    .right {
+        text-align: right;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
+    .right-part-container-1 {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        max-width: 50%;
+        text-align: center;
+        background-color: #A7B635;
+        height: 100%;
+        overflow: hidden;
+        box-shadow: -4px 0px 6px -2px rgba(0, 0, 0, 0.34);
+    }
+    .right-part-container-2 {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .right-part {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+    .right-part .produit-hr {
+        max-width: 20%;
+        color: white;
+        display: block;
+        border: 0;
+        border-top: 2px solid #ffffff;
+    }
+    /* Title */
+    .right-part .titre-produit {
+        font-family: 'Muli', sans-serif;
+        margin: 80px 60px 50px 60px;
+        font-size: 150%;
+        color: white;
+    }
+    /* 1st Information */
+    .right-part .informations {
+        font-family: 'Nunito', sans-serif;
+        margin: 20px 40px;
+        color: white;
+    }
+    .right-part .informations .sous-titre {
+        text-align: center;
+    }
+    .right-part .informations .texte-normale {
+        text-align: justify;
+        text-align-last: left;
+    }
+    /* 2nd Information */
+    .right-part .superfood {
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        margin: 40px 40px;
+        color: white;
+    }
+    .right-part .superfood .sous-titre {
+        text-align: center;
+    }
+    .right-part .superfood .texte-normale {
+        text-align: justify;
+        text-align-last: left;
+    }
+    /* Menu infors nutrion */
+    .right-part .nutrition {
+        font-family: 'Nunito', sans-serif;
+        text-align: justify;
+        margin: 40px 80px;
+        color: white;
+    }
+    .right-part .nutrition .sous-titre {
+        text-align: center;
+    }
+    #menu-container {
+        display: table;
+        width: 100%;
+    }
+    .table-row {
+        display: table-row;
+    }
+    .table-column {
+        padding: 5px 0px;
+        display: table-cell;
+    }
+    .bullet {
+        font-weight: 700;
+    }
+    .left {
+        text-align: left;
+    }
+    .right {
+        text-align: right;
+    }
+}
+
 
 /***** CONTACT ******/
 
