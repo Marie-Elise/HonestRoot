@@ -12,7 +12,7 @@
 </head>
  <body <?php body_class(); ?>>
    <header id="header">
-     <div class="container">
+     <div class="container-fluid">
        <div class="col-sm-12">
         <a href="<?php bloginfo("url"); ?>"> <img src="<?= IMAGES_URL; ?>/logo.png" alt="<?php bloginfo("title"); ?>" class="logo"/></a>
 
@@ -26,6 +26,7 @@
            'menu_id' => 'menu_id' // id à attribuer au menu
            // voir les autres arguments possibles sur le codex
          );
+
 
          wp_nav_menu($args);
          ?>
