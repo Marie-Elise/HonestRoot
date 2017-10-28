@@ -1,3 +1,4 @@
+<div class="produit">
 <?php get_header(); //appel du template header.php  ?>
 
 <div id="content" class="container-fuid">
@@ -8,7 +9,7 @@
       'post_type' => 'smoothie',
       'posts_per_page' => 12,
       'orderby' => 'date',
-	     'order'   => 'DESC',
+	    'order'   => 'DESC',
     );
     $the_query = new WP_Query( $args );
     // The Loop
@@ -28,6 +29,8 @@
             $cat = wp_get_post_terms($post->ID, 'genre', array("fields" => "all"));
          ?>
 
+
+
   <h2 class="titleproduit <?= $cat[0]->slug ?>"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
       </div>
 
@@ -41,6 +44,7 @@
   </div>
 
 
+
 <!-- Pagination du site -->
   <div class="pagination">
     <?php wp_pagenavi(); ?>
@@ -48,3 +52,4 @@
 </div> <!-- /content -->
 
 <?php get_footer(); //appel du template footer.php ?>
+</div>

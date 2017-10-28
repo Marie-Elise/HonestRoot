@@ -1,5 +1,6 @@
 jQuery(document).ready(function() {
   jQuery(".owl-carousel").owlCarousel({
+    nav:true,
     loop:true,
     center: true,
     margin:5,
@@ -14,6 +15,5 @@ jQuery(document).ready(function() {
            items:5
        }
    }
-
   });
 });

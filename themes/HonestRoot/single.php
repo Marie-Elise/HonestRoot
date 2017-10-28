@@ -1,6 +1,6 @@
+<div class="produit">
 <?php get_header(); //appel du template header.php  ?>
 
-<div class="produit">
   <?php
   // boucle WordPress
   if (have_posts()){
@@ -20,15 +20,16 @@
               the_post_thumbnail("full");
               echo '</div>';
             }
+            $cat = wp_get_post_terms($post->ID, 'genre', array("fields" => "all"));
             ?>
           </div>
-          <p class="fond-text"><?php the_field('background');?></p>
+          <p class="<?= $cat[0]->slug ?>"><?php the_field('background');?></p>
         </div>
       </div>
     </div>
 
       <!-- RIGHT SIDE -->
-      <div class="right-part-container-1">
+      <div class="right-part-container-1 <?= $cat[0]->slug ?>">
         <div class="right-part-container-2">
           <div class="right-part" id="right">
             <!-- catégorie -->
@@ -112,6 +113,5 @@
     }
     ?>
 
-</div> <!-- /content -->
-
 <?php get_footer(); //appel du template footer.php ?>
+</div> <!-- produit -->
