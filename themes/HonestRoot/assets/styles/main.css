@@ -66,6 +66,224 @@ header#header {
   padding-top: 30px;
 }
 
+/***** PAGE CONCEPT ******/
+/**** origine ****/
+div.rectangle.origine{
+  z-index: -1;
+	width:1000px;
+	height:400px;
+	background:#F2CF40;
+  display: inline-block;
+  position: absolute;
+  margin-top: 200px;
+}
+
+h2.title.origine{
+  font-family: 'Muli', sans-serif;
+  font-size: 120px;
+  color: #9D0C22;
+  margin-left: -300px;
+  margin-top: 50px;
+}
+.origine p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: -300px;
+  margin-right: 400px;
+  color: #000000;
+}
+/**** healthy ****/
+div.rectanglesecond.origine{
+  z-index: -1;
+	width:700px;
+	height:200px;
+	background:#9D0C22;
+  display: inline-block;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: -50px;
+}
+
+h2.titlesecond.origine{
+  color: #F2CF40;
+  font-family: 'Muli', sans-serif;
+  font-size: 70px;
+  margin-top: 150px;
+  margin-left: 400px
+}
+div.textsecond.origine{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -10px;
+  margin-right: 200px;
+  color: #ffffff;
+}
+/**** gammeesprit ****/
+div.rectangle.gammeesprit{
+  z-index: -1;
+	width:600px;
+	height:500px;
+	background:#6A6E8D;
+  display: inline-block;
+  position: absolute;
+  margin-top: 200px;
+}
+
+h2.title.gammeesprit{
+  font-family: 'Muli', sans-serif;
+  font-size: 150px;
+  color: #6A6E8D;
+  margin-top: 100px;
+}
+.gammeesprit p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  margin-right: 400px;
+  color: #000000;
+}
+/**** gammeforce ****/
+div.image-concept.gammeforce{
+  margin-left: 800px;
+}
+div.rectangle.gammeforce{
+  z-index: -1;
+	width:800px;
+	height:500px;
+	background:#C72C48;
+  margin-left: 800px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 200px;
+}
+
+h2.title.gammeforce{
+  font-family: 'Muli', sans-serif;
+  font-size: 120px;
+  color: #F98196;
+  margin-left: -800px;
+  margin-top: 100px;
+}
+.gammeforce p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: -800px;
+  color: #000000;
+}
+/**** gammeenergie ****/
+div.rectangle.gammeenergie{
+  z-index: -1;
+  width:600px;
+	height:500px;
+	background:#F2CF40;
+  display: inline-block;
+  position: absolute;
+  margin-top: 200px;
+}
+
+h2.title.gammeenergie{
+  font-family: 'Muli', sans-serif;
+  font-size: 120px;
+  color: #FBE58A;
+  margin-top: 100px;
+}
+.gammeenergie p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  margin-right: 390px;
+  color: #000000;
+}
+/**** gammedetox ****/
+div.image-concept.gammedetox{
+  margin-left: 800px;
+}
+div.rectangle.gammedetox {
+  z-index: -1;
+  width:800px;
+	height:500px;
+	background:#A7B635;
+  margin-left: 800px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 200px;
+}
+
+h2.title.gammedetox {
+  font-family: 'Muli', sans-serif;
+  font-size: 120px;
+  color: #A0BE7D;
+  margin-left: -800px;
+  margin-top: 100px;
+}
+.gammedetox p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: -800px;
+  color: #000000;
+}
+/**** gammedetox ****/
+div.image-concept.gout{
+  width: 150%;
+  height: auto;
+  margin-left: -100px;
+}
+div.rectangle.gout {
+  z-index: -1;
+  display: inline-block;
+  position: absolute;
+  width:40px;
+  height:10px;
+  border:1px solid #4D537E;
+  border-color:transparent transparent #4D537E transparent;
+  border-width:600px;
+  margin-top: -700px;
+  margin-left: -620px;
+}
+h2.title.gout {
+  font-family: 'Muli', sans-serif;
+  font-size: 50px;
+  color: #4D537E;
+  margin-left: -300px;
+  margin-top: 100px;
+}
+.gout p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  display: inline-block;
+  margin-top: -30px;
+  margin-left: -300px;
+  margin-right: -300px
+  color: #000000;
+}
+/**** comment ****/
+h2.title.comment {
+  font-family: 'Muli', sans-serif;
+  font-size: 60px;
+  color: #4D537E;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.comment p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  display: inline-block;
+  color: #000000;
+}
+
 /***** PRODUITS slider ******/
 
 .owl-item>div {
@@ -148,7 +366,7 @@ header#header {
   display: inline-block;
   position: absolute;
   left: 55%;
-  top: 30%;
+  top: 30;
 }
 
 /***** PRODUITS single.php slider ******/
@@ -164,8 +382,7 @@ header#header {
 }
 
 .produit header#header {
-  padding-top: 10<px;
-  padding-bottom: 20px;
+  padding-top: 40px;
 }
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
