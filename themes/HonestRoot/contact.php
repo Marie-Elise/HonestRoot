@@ -29,26 +29,7 @@ get_header(); //appel du template header.php  ?>
             </div>
 
             <div class="row">
-                <!-- le titre de la partie instagram 
-                <h2 class="col-sm-10 offset-4">Suivez notre actualité sur notre Instagram !</h2>-->
-
-                <!-- la partie où on récupère les images du compte insta
-                <div class="col-sm-10">
-                    <div class="row" id="insta_feed">
-                        <img src="<?= IMAGES_URL; ?>/1.PNG" alt="image de smoothie gauche" class="col-sm-2 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/2.PNG" alt="image de smoothie gauche" class="col-sm-2 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/3.PNG" alt="image de smoothie gauche" class="col-sm-2 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/4.PNG" alt="image de smoothie gauche" class="col-sm-4 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/5.PNG" alt="image de smoothie gauche" class="col-sm-4 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/6.PNG" alt="image de smoothie gauche" class="col-sm-4 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/7.PNG" alt="image de smoothie gauche" class="col-sm-4 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/8.PNG" alt="image de smoothie gauche" class="col-sm-4 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/9.PNG" alt="image de smoothie gauche" class="col-sm-4 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/10.PNG" alt="image de smoothie gauche" class="col-sm-4 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/11.PNG" alt="image de smoothie gauche" class="col-sm-4 col-lg-2"/>
-                        <img src="<?= IMAGES_URL; ?>/12.PNG" alt="image de smoothie gauche" class="col-sm-4 col-lg-2"/>
-                    </div>
-                </div> -->
+            <?php echo do_shortcode('[instagram-feed]');  ?>
             </div>
         </div>
 

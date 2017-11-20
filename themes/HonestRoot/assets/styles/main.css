@@ -400,7 +400,7 @@ h2.title.comment {
   display: inline-block;
   position: absolute;
   left: 55%;
-  top: 30;
+  top: 30%;
 }
 
 /***** PRODUITS single.php slider ******/
@@ -1159,7 +1159,7 @@ h2.title.comment {
 }
 
 .smoothie_contact > img{
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-right: 0px;
 }
@@ -1175,11 +1175,6 @@ h2.title.comment {
 .smoothie_contact:nth-of-type(2) > img{
     position: relative !important;
     top: 100% !important;
-}
-
-#formulaire_contact{
-    margin-top: 3%;
-    margin-bottom: 25px;
 }
 
 #wpforms-240 #wpforms-240-field_2-container, #wpforms-240 #wpforms-240-field_3-container{
@@ -1245,19 +1240,6 @@ h2.title.comment {
     padding-bottom: 3px;
     float: right;
     color: white;
-}
-
-#insta_feed{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 100px;
-}
-
-#insta_feed img{
-    width: 100%;
-    height: 100%;
 }
 
 @media screen and (max-width: 1200px){
