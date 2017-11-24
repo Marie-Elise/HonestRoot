@@ -1,0 +1,206 @@
+/***** PAGE CONCEPT ******/
+
+/**** origine ****/
+.concept {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+div.rectangle.origine{
+    z-index: -1;
+    width:800px;
+    height:500px;
+    background:#F2CF40;
+}
+div.rectanglesecond.origine{
+    z-index: -1;
+    width:700px;
+    height:300px;
+    background:#9D0C22;
+}
+h2.title.origine{
+    font-family: 'Muli', sans-serif;
+    font-size: 140px;
+    color: #9D0C22;
+}
+.origine p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    position :absolute;
+    width:600px;
+    margin: 40px 40px;
+}
+
+/**** gammeesprit ****/
+div.rectangle.gammeesprit{
+    z-index: -1;
+    width:600px;
+    height:500px;
+    background:#6A6E8D;
+    display: inline-block;
+}
+h2.title.gammeesprit{
+    font-family: 'Muli', sans-serif;
+    font-size: 150px;
+    color: #6A6E8D;
+}
+.gammeesprit p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+/**** gammeforce ****/
+div.image-concept.gammeforce{
+
+}
+div.rectangle.gammeforce{
+    z-index: -1;
+    width:800px;
+    height:500px;
+    background:#C72C48;
+    display: inline-block;
+}
+h2.title.gammeforce{
+    font-family: 'Muli', sans-serif;
+    font-size: 120px;
+    color: #C72C48;
+}
+.gammeforce p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    color: #000000;
+}
+div.textsecond.gammeforce{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    color: #000000;
+}
+
+/**** gammeenergie ****/
+div.rectangle.gammeenergie{
+    z-index: -1;
+    width:600px;
+    height:500px;
+    background:#F2CF40;
+    display: inline-block;
+    margin-top: 200px;
+} 
+h2.title.gammeenergie{
+    font-family: 'Muli', sans-serif;
+    font-size: 120px;
+    color: #F2CF40;
+    margin-top: 100px;
+}
+.gammeenergie p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+div.textsecond.gammeenergie{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    color: #000000;
+}
+
+/**** gammedetox ****/
+div.image-concept.gammedetox{
+}
+div.rectangle.gammedetox {
+    z-index: -1;
+    width:800px;
+    height:500px;
+    background:#A7B635;
+    display: inline-block;
+}
+h2.title.gammedetox {
+    font-family: 'Muli', sans-serif;
+    font-size: 120px;
+    color: #A7B635;
+    margin-top: 100px;
+}
+.gammedetox p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    color: #000000;
+}
+div.textsecond.gammedetox{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    color: #000000;
+}
+
+/**** gammedetox ****/
+div.image-concept.gout{
+    width: 150%;
+    height: auto;
+}
+div.rectangle.gout {
+    z-index: -1;
+    position: absolute;
+    width:40px;
+    height:10px;
+    border:1px solid #4D537E;
+    border-color:transparent transparent #4D537E transparent;
+    border-width:600px;
+}
+h2.title.gout {
+    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+    color: #4D537E;
+}
+.gout p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    color: #000000;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    h2.title.origine{
+        font-size: 80px;
+    }
+    div.rectanglesecond.origine{
+        z-index: -1;
+        width:700px;
+        height:450px;
+        background:#9D0C22;
+    }
+    .origine p{
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        position :absolute;
+        width:330px;
+        margin: 20px 20px;
+    }
+    h2.title.gammeesprit{
+        font-size: 80px;
+    }
+    h2.title.gammeforce{
+        font-size: 80px;
+        color: #C72C48;
+    }
+    h2.title.gammeenergie{
+        font-size: 80px;
+        margin-top: 100px;
+    }
+    h2.title.gammedetox {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+    h2.title.gout {
+        font-family: 'Muli', sans-serif;
+        font-size: 80px;
+        color: #4D537E;
+    }
+}
+
+
