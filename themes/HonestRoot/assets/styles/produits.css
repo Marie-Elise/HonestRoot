@@ -1,0 +1,136 @@
+/***** PAGE PRODUITS slider ******/
+
+.owl-carousel{
+    margin-top: 70px;
+  }
+  
+  
+  .owl-item>div {
+    cursor: pointer;
+    margin: 17% 17%;
+    transition: margin 0.2s ease;
+  }
+  
+  .owl-item.center>div {
+    cursor: auto;
+    margin: 0;
+  }
+  
+  .owl-item:not(.center)>div h2.titleproduit a {
+    visibility: hidden;
+  }
+  
+  .owl-item.center>div h2.detox a {
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    color: #A7B635;
+    font-size: 350px;
+    float: left;
+    margin-left: -450px;
+    margin-top: -200px;
+  }
+  
+  .owl-item.center>div h2.energie a {
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    color: #F2CF40;
+    font-size: 350px;
+    float: left;
+    margin-left: -640px;
+    margin-top: -200px;
+  }
+  
+  .owl-item.center>div h2.esprit a {
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    color: #4D537E;
+    font-size: 350px;
+    float: left;
+    margin-left: -470px;
+    margin-top: -200px;
+  }
+  
+  .owl-item.center>div h2.force a {
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    color: #C72C48;
+    font-size: 350px;
+    float: left;
+    margin-left: -450px;
+    margin-top: -200px;
+  }
+  
+  .owl-item:not(.center)>div:hover {
+    opacity: .75;
+  }
+  
+  .owl-prev {
+    z-index: 2;
+    font-family: 'Nunito', sans-serif;
+    font-size: 450%;
+    color: #E0E0E0;
+    max-width: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+  }
+  
+  .owl-next {
+    z-index: 2;
+    font-family: 'Nunito', sans-serif;
+    font-size: 450%;
+    color: #E0E0E0;
+    max-width: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    top: 30%;
+  }
+  
+  @media only screen and (min-width: 800px) and (max-width: 1280px) {
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    .produit {
+      overflow: hidden;
+    }
+    .owl-item .item .thumbail img{
+      width: 40%;
+      height: auto;
+    }
+    .owl-item.center>div h2.detox a {
+      z-index: 1000;
+      position: relative;
+      font-size: 80px;
+      float: left;
+      margin-left: 35px;
+      margin-top: -250px;
+    }
+    .owl-item.center>div h2.energie a {
+      z-index: 1000;
+      position: relative;
+      font-size: 80px;
+      float: left;
+      margin-left: -10px;
+      margin-top: -250px;
+    }
+    .owl-item.center>div h2.force a {
+      z-index: 1000;
+      position: relative;
+      font-size: 80px;
+      float: left;
+      margin-left: 35px;
+      margin-top: -250px;
+    }
+    .owl-item.center>div h2.esprit a {
+      z-index: 1000;
+      position: relative;
+      font-size: 80px;
+      float: left;
+      margin-left: 35px;
+      margin-top: -250px;
+    }
+  }
+
+  
