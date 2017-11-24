@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
   <!-- Appel du fichier style.css de notre thème -->
@@ -10,13 +11,13 @@
   <?php wp_head(); ?>
 
 </head>
- <body <?php body_class(); ?>>
    <header id="header">
-     <div class="container-fluid">
-       <div class="col-sm-12">
-        <a href="<?php bloginfo("url"); ?>"> <img src="<?= IMAGES_URL; ?>/logo.png" alt="<?php bloginfo("title"); ?>" class="logo"/></a>
-
+     <div id="wptime-plugin-preloader"></div>
          <!-- menu -->
+         <header class="menu-honest-root">
+         <a href="<?php bloginfo("url"); ?>"> <img src="<?= IMAGES_URL; ?>/logo.png" alt="<?php bloginfo("title"); ?>" class="logo"/></a>
+         <input class="menu-btn" type="checkbox" id="menu-btn" />
+         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
          <?php
          $args=array(
            'theme_location' => 'header', // nom du slug
@@ -24,12 +25,9 @@
            'menu' => 'header_fr', // nom à donner cette occurence du menu
            'menu_class' => 'menu_header', // class à attribuer au menu
            'menu_id' => 'menu_id' // id à attribuer au menu
-           // voir les autres arguments possibles sur le codex
          );
-
-
          wp_nav_menu($args);
          ?>
-       </div>
-     </div>
+         </header>
    </header>
+   <body>
