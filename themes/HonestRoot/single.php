@@ -1,8 +1,7 @@
-<div class="produit">
 <?php get_header(); //appel du template header.php  ?>
 
+<div class="single">
   <?php
-  // boucle WordPress
   if (have_posts()){
     while (have_posts()){
       the_post();

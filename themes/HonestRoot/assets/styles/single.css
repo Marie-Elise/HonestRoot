@@ -1,6 +1,6 @@
 /***** PRODUITS single.php slider ******/
 
-.produit {
+.single {
     max-height: 100vh;
     position: fixed;
     top: 0;
@@ -10,166 +10,165 @@
     overflow: hidden;
   }
   
-  
-  @media only screen and (min-device-width: 1024px) {
-    .left-part-container-1 {
-      display: inline-block;
-      position: absolute;
-      left: 0;
-      width: 50%;
-      height: 100%;
-      overflow: hidden;
-    }
-    .left-part-container-2 {
-      height: 100%;
-      width: 100%;
-      overflow: hidden;
-    }
-    .left-part {
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-    }
-    .left-part .detox {
-      z-index: -1;
-      font-family: 'Nunito', sans-serif;
-      font-size: 450%;
-      color: #A7B635;
-      max-width: 80%;
-      display: inline-block;
-      position: absolute;
-      left: 0;
-    }
-    .left-part .esprit {
-      z-index: -1;
-      font-family: 'Nunito', sans-serif;
-      font-size: 450%;
-      color: #4D537E;
-      max-width: 80%;
-      display: inline-block;
-      position: absolute;
-      left: 0;
-    }
-    .left-part .force {
-      z-index: -1;
-      font-family: 'Nunito', sans-serif;
-      font-size: 450%;
-      color: #C72C48;
-      max-width: 80%;
-      display: inline-block;
-      position: absolute;
-      left: 0;
-    }
-    .left-part .energie {
-      z-index: -1;
-      font-family: 'Nunito', sans-serif;
-      font-size: 450%;
-      color: #F2CF40;
-      max-width: 80%;
-      display: inline-block;
-      position: absolute;
-      left: 0;
-    }
-    .left-part .image-png {
-      display: inline-block;
-      position: absolute;
-      max-width: 50%;
-      height: auto;
-      right: -20%;
-    }
-    .left-part .image-png img {
-      max-height: 100%;
-      max-width: 100%;
-    }
-    .titre-categorie {
-      font-family: 'Muli', sans-serif;
-      color: white;
-      font-size: 50px;
-      position: absolute;
-      right: -110px;
-      bottom: 30%;
-      white-space: nowrap;
-      display: inline-block;
-      -webkit-transform: rotate(-90deg);
-      transform: rotate(-90deg);
-      -webkit-transform-origin: left top;
-      transform-origin: left top;
-      overflow: auto;
-      max-width: calc(100vh - 200px);
-    }
+@media only screen and (min-device-width: 1024px) {
+  .left-part-container-1 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
   }
+  .left-part-container-2 {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .left-part {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  .left-part .detox {
+    z-index: -1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 450%;
+    color: #A7B635;
+    max-width: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+  .left-part .esprit {
+    z-index: -1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 450%;
+    color: #4D537E;
+    max-width: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+  .left-part .force {
+    z-index: -1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 450%;
+    color: #C72C48;
+    max-width: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+  .left-part .energie {
+    z-index: -1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 450%;
+    color: #F2CF40;
+    max-width: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+  .left-part .image-png {
+    display: inline-block;
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    right: -20%;
+  }
+  .left-part .image-png img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .titre-categorie {
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    right: -110px;
+    bottom: 30%;
+    white-space: nowrap;
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    overflow: auto;
+    max-width: calc(100vh - 200px);
+  }
+}
   
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-    .left-part-container-1 {
-      display: inline-block;
-      position: absolute;
-      left: 0;
-      width: 50%;
-      height: 100%;
-      overflow: hidden;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .left-part-container-1 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .left-part-container-2 {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .left-part {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  .left-part .detox {
+    font-family: 'Nunito', sans-serif;
+    font-size: 320%;
+    color: #A7B635;
+    max-width: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 6%;
+    left: 0;
+  }
+  .left-part .esprit {
+    font-family: 'Nunito', sans-serif;
+    font-size: 320%;
+    color: #4D537E;
+    max-width: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 6%;
+    left: 0;
+  }
+  .left-part .force {
+    font-family: 'Nunito', sans-serif;
+    font-size: 320%;
+    color: #C72C48;
+    max-width: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 6%;
+    left: 0;
+  }
+  .left-part .energie {
+    font-family: 'Nunito', sans-serif;
+    font-size: 320%;
+    color: #F2CF40;
+    max-width: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 6%;
+    left: 0;
     }
-    .left-part-container-2 {
-      height: 100%;
-      width: 100%;
-      overflow: hidden;
-    }
-    .left-part {
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-    }
-    .left-part .detox {
-      font-family: 'Nunito', sans-serif;
-      font-size: 320%;
-      color: #A7B635;
-      max-width: 50%;
-      display: inline-block;
-      position: absolute;
-      margin-top: 6%;
-      left: 0;
-    }
-    .left-part .esprit {
-      font-family: 'Nunito', sans-serif;
-      font-size: 320%;
-      color: #4D537E;
-      max-width: 50%;
-      display: inline-block;
-      position: absolute;
-      margin-top: 6%;
-      left: 0;
-    }
-    .left-part .force {
-      font-family: 'Nunito', sans-serif;
-      font-size: 320%;
-      color: #C72C48;
-      max-width: 50%;
-      display: inline-block;
-      position: absolute;
-      margin-top: 6%;
-      left: 0;
-    }
-    .left-part .energie {
-      font-family: 'Nunito', sans-serif;
-      font-size: 320%;
-      color: #F2CF40;
-      max-width: 50%;
-      display: inline-block;
-      position: absolute;
-      margin-top: 6%;
-      left: 0;
-    }
-    .left-part .image-png {
-      display: inline-block;
-      position: absolute;
-      max-width: 100%;
-      height: auto;
-      right: -35%;
-      margin-top: 25%;
-    }
-    .left-part .image-png img {
-      max-height: 120%;
-      max-width: 120%;
-    }
+  .left-part .image-png {
+    display: inline-block;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    right: -35%;
+    margin-top: 25%;
+  }
+  .left-part .image-png img {
+    max-height: 120%;
+    max-width: 120%;
+  }
     .titre-categorie {
       font-family: 'Muli', sans-serif;
       color: white;
@@ -193,65 +192,51 @@
       display: inline-block;
       width: 100%;
       height: 100%;
-      overflow: hidden;
     }
     .left-part-container-2 {
       height: 100%;
       width: 100%;
-      overflow: hidden;
     }
     .left-part {
       text-align: center;
       width: 100%;
       height: 100%;
-      overflow: auto;
     }
     .left-part .detox {
-      font-family: 'Nunito', sans-serif;
-      font-size: 330%;
-      color: #A7B635;
+      font-size: 400%;
       text-align: left;
-      max-width: 90%;
+      max-width: 10%;
       display: inline-block;
       position: absolute;
       margin-top: 4%;
-      left: 0;
       z-index: -1;
     }
     .left-part .esprit {
-      font-family: 'Nunito', sans-serif;
-      font-size: 330%;
-      color: #4D537E;
+
+      font-size: 450%;
       text-align: left;
       max-width: 90%;
       display: inline-block;
       position: absolute;
       margin-top: 4%;
-      left: 0;
       z-index: -1;
     }
     .left-part .force {
-      font-family: 'Nunito', sans-serif;
-      font-size: 330%;
-      color: #C72C48;
+      font-size: 450%;
       text-align: left;
       max-width: 90%;
       display: inline-block;
       position: absolute;
       margin-top: 4%;
-      left: 0;
       z-index: -1;
     }
     .left-part .energie {
-      font-family: 'Nunito', sans-serif;
-      font-size: 330%;
-      color: #F2CF40;
+      font-size: 450%;
       text-align: left;
       max-width: 90%;
       display: inline-block;
       position: absolute;
       margin-top: 4%;
-      left: 0;
       z-index: -1;
     }
     .left-part .image-png {
@@ -275,7 +260,6 @@
       display: inline-block;
       margin: -25px auto;
       bottom: -20px;
-      overflow: auto;
     }
   }
   
@@ -564,53 +548,45 @@
   }
   
   @media only screen and (max-device-width: 767px) {
-    .produit {
-      overflow: scroll;
+    .single {
+      overflow-y: scroll
     }
     .left-part .detox {
       font-family: 'Nunito', sans-serif;
-      font-size: 730%;
+      font-size: 430%;
       color: #A7B635;
       text-align: left;
       max-width: 90%;
-      display: inline-block;
-      position: absolute;
       margin-top: 4%;
       left: 0;
       z-index: -1;
     }
     .left-part .esprit {
       font-family: 'Nunito', sans-serif;
-      font-size: 730%;
+      font-size: 430%;
       color: #4D537E;
       text-align: left;
       max-width: 90%;
-      display: inline-block;
-      position: absolute;
       margin-top: 4%;
       left: 0;
       z-index: -1;
     }
     .left-part .force {
       font-family: 'Nunito', sans-serif;
-      font-size: 730%;
+      font-size: 430%;
       color: #C72C48;
       text-align: left;
       max-width: 90%;
-      display: inline-block;
-      position: absolute;
       margin-top: 4%;
       left: 0;
       z-index: -1;
     }
     .left-part .energie {
       font-family: 'Nunito', sans-serif;
-      font-size: 730%;
+      font-size: 430%;
       color: #F2CF40;
       text-align: left;
       max-width: 90%;
-      display: inline-block;
-      position: absolute;
       margin-top: 4%;
       left: 0;
       z-index: -1;
@@ -620,8 +596,7 @@
       max-width: 100%;
       text-align: center;
       background-color: #A7B635;
-      height: 100%;
-      overflow: hidden;
+      height: 130%;
       box-shadow: -4px 0px 6px -2px rgba(0, 0, 0, 0.34);
     }
     .right-part-container-1.esprit {
@@ -629,8 +604,7 @@
       max-width: 100%;
       text-align: center;
       background-color: #4D537E;
-      height: 100%;
-      overflow: hidden;
+      height: 130%;
       box-shadow: -4px 0px 6px -2px rgba(0, 0, 0, 0.34);
     }
     .right-part-container-1.force {
@@ -638,8 +612,7 @@
       max-width: 100%;
       text-align: center;
       background-color: #C72C48;
-      height: 100%;
-      overflow: hidden;
+      height: 130%;
       box-shadow: -4px 0px 6px -2px rgba(0, 0, 0, 0.34);
     }
     .right-part-container-1.energie {
@@ -647,20 +620,16 @@
       max-width: 100%;
       text-align: center;
       background-color: #F2CF40;
-      height: 100%;
-      overflow: hidden;
+      height: 130%;
       box-shadow: -4px 0px 6px -2px rgba(0, 0, 0, 0.34);
     }
     .right-part-container-2 {
       height: 100%;
       width: 100%;
-      overflow: hidden;
     }
     .right-part {
       width: 100%;
       height: 100%;
-      overflow: auto;
-      margin-top: 20px;
     }
     .right-part .produit-hr {
       max-width: 20%;
