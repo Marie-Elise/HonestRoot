@@ -1,8 +1,5 @@
 <?php $cat = wp_get_post_terms($post->ID, 'gamme', array("fields" => "all")); ?>
 
-
-
-
 <div class="col-12">
     <div class="row">
         <div class="col-md-6 col-xs-12">

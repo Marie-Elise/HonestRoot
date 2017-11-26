@@ -1,11 +1,9 @@
 /***** PAGE CONCEPT ******/
 
 /**** origine ****/
-.concept {
+.concepts {
     margin-top: 100px;
-    margin-bottom: 50px;
 }
-
 
 div.rectangle.origine{
     z-index: -1;
@@ -32,7 +30,14 @@ h2.title.origine{
     width:600px;
     margin: 40px 40px;
 }
-
+.nosgammes{
+    font-family: 'Nunito', sans-serif;
+    font-size: 150px;
+    color: #A2A2A2;
+    text-align: center;
+    position :relative;
+    margin-top: 900px;
+}
 /**** gammeesprit ****/
 div.rectangle.gammeesprit{
     z-index: -1;
@@ -53,20 +58,19 @@ h2.title.gammeesprit{
 }
 
 /**** gammeforce ****/
-div.image-concept.gammeforce{
-
-}
 div.rectangle.gammeforce{
     z-index: -1;
     width:800px;
     height:500px;
     background:#C72C48;
     display: inline-block;
+    margin-top: 300px
 }
 h2.title.gammeforce{
     font-family: 'Muli', sans-serif;
     font-size: 120px;
     color: #C72C48;
+    margin-top: 300px
 }
 .gammeforce p{
     font-family: 'Nunito', sans-serif;
@@ -88,13 +92,13 @@ div.rectangle.gammeenergie{
     height:500px;
     background:#F2CF40;
     display: inline-block;
-    margin-top: 200px;
+    margin-top: 300px
 } 
 h2.title.gammeenergie{
     font-family: 'Muli', sans-serif;
     font-size: 120px;
     color: #F2CF40;
-    margin-top: 100px;
+    margin-top: 300px
 }
 .gammeenergie p{
     font-family: 'Nunito', sans-serif;
@@ -109,20 +113,19 @@ div.textsecond.gammeenergie{
 }
 
 /**** gammedetox ****/
-div.image-concept.gammedetox{
-}
 div.rectangle.gammedetox {
     z-index: -1;
     width:800px;
     height:500px;
     background:#A7B635;
     display: inline-block;
+    margin-top: 300px
 }
 h2.title.gammedetox {
     font-family: 'Muli', sans-serif;
     font-size: 120px;
     color: #A7B635;
-    margin-top: 100px;
+    margin-top: 300px
 }
 .gammedetox p{
     font-family: 'Nunito', sans-serif;
@@ -137,24 +140,24 @@ div.textsecond.gammedetox{
     color: #000000;
 }
 
-/**** gammedetox ****/
-div.image-concept.gout{
-    width: 150%;
-    height: auto;
-}
+/**** gout ****/
 div.rectangle.gout {
     z-index: -1;
-    position: absolute;
-    width:40px;
-    height:10px;
-    border:1px solid #4D537E;
-    border-color:transparent transparent #4D537E transparent;
-    border-width:600px;
+    width: 0;
+    height: 0;
+    border-left: 700px solid transparent;
+    border-right: 700px solid transparent;
+    border-bottom: 500px solid #4D537E;
+    display: inline-block;
+    transform: translate(-55%);
+    margin-top: 400px
 }
 h2.title.gout {
     font-family: 'Muli', sans-serif;
     font-size: 50px;
     color: #4D537E;
+    display: inline-block;
+    margin-top: 400px
 }
 .gout p{
     font-family: 'Nunito', sans-serif;
@@ -164,6 +167,10 @@ h2.title.gout {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 667px) {
+    .concept {
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
     h2.title.origine{
         font-size: 80px;
     }
@@ -178,28 +185,29 @@ h2.title.gout {
         font-size: 18px;
         color: #ffffff;
         position :absolute;
-        width:330px;
+        width:320px;
         margin: 20px 20px;
     }
+    .nosgammes{
+        font-size: 90px;
+    }
     h2.title.gammeesprit{
-        font-size: 80px;
+        font-size: 75px;
     }
     h2.title.gammeforce{
-        font-size: 80px;
+        font-size: 75px;
         color: #C72C48;
     }
     h2.title.gammeenergie{
-        font-size: 80px;
+        font-size: 75px;
         margin-top: 100px;
     }
     h2.title.gammedetox {
-        font-size: 80px;
+        font-size: 75px;
         margin-top: 100px;
     }
     h2.title.gout {
-        font-family: 'Muli', sans-serif;
-        font-size: 80px;
-        color: #4D537E;
+        font-size: 40px;
     }
 }
 

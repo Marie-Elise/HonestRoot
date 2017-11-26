@@ -1,8 +1,8 @@
 <?php
 /*Template name: concept */
+ get_header(); //appel du template header.php  ?>
 
-get_header(); //appel du template header.php  ?>
-<div id="content" class="container-fluid">
+<div id="content" class="container-fluid concept page">
   <?php
   $args=array(
     'post_type' => 'concept',
@@ -21,9 +21,7 @@ get_header(); //appel du template header.php  ?>
       $the_query->the_post();
       
       ?>
-
-      <div class=" concept">
-
+      <div class="concepts">
         <?php
         if(get_field('display-type') === '1c-d') {
           get_template_part('templates/concept-1c-d');
@@ -38,8 +36,6 @@ get_header(); //appel du template header.php  ?>
           get_template_part('templates/concept-1t');
         }
         ?>
-        
-
       </div>
 
       <?php

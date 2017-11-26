@@ -23,4 +23,5 @@
             <div class="textsecond <?= $cat[0]->slug ?>"><?php the_field('textsecond');?></div>
         </div>
     </div>
+    <h1 class="nosgammes">Nos gammes</h1>
 </div>
