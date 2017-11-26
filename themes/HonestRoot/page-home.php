@@ -10,7 +10,7 @@
 
   <div class="homebutton">
     <h4>
-      <a href="#">Décrouvrez-nous !</a>
+      <a href="concept">Décrouvrez-nous !</a>
     </h4>
       <svg width="21px" height="19px" viewBox="0 0 21 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -22,5 +22,3 @@
     </div>
  </div>
 </div> <!-- /content -->
-
-<?php get_footer(); //appel du template footer.php ?>
