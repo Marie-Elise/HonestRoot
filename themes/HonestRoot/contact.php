@@ -9,7 +9,7 @@ get_header(); //appel du template header.php  ?>
             <img src="<?= IMAGES_URL; ?>/limemint.png" alt="image de smoothie gauche" />
         </div>
 
-        <div class="col-xs-10 col-lg-6" id="centre_contact">
+        <div class="col-xs-10 col-lg-8" id="centre_contact">
             <div class="row">
                 <div id="formulaire_contact">
                     <!-- les deux titres de la page -->
