@@ -25,25 +25,25 @@
   visibility: hidden;
 }
 .owl-item.center>div h2.detox a {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: #A7B635;
   font-size: 350px;
   float: left;
-  margin-left: -500px;
+  margin-left: -450px;
   margin-top: -250px;
 }
 .owl-item.center>div h2.energie a {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: #F2CF40;
   font-size: 350px;
   float: left;
-  margin-left: -650px;
+  margin-left: -600px;
   margin-top: -250px;
 }
 .owl-item.center>div h2.esprit a {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: #4D537E;
   font-size: 350px;
@@ -52,7 +52,7 @@
   margin-top: -250px;
 }
 .owl-item.center>div h2.force a {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: #C72C48;
   font-size: 350px;
@@ -148,28 +148,28 @@
     z-index: 1000;
     position: relative;
     font-size: 80px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: -250px;
   }
   .owl-item.center>div h2.energie a {
     z-index: 1000;
     position: relative;
     font-size: 80px;
-    margin-left: -20px;
+    margin-left: -10px;
     margin-top: -260px;
   }
   .owl-item.center>div h2.force a {
     z-index: 1000;
     position: relative;
     font-size: 80px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: -250px;
   }
   .owl-item.center>div h2.esprit a {
     z-index: 1000;
     position: relative;
     font-size: 80px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: -280px;
   }
 }
