@@ -16,6 +16,13 @@ wp_register_script('jquery_script', JS_URL.'/jquery.min.js', array('jquery'),'1.
 wp_enqueue_script('jquery_script');
 wp_register_script('owl_script', JS_URL.'/owl.carousel.min.js', array('jquery'),'1.1', true);
 wp_enqueue_script('owl_script');
+// scroll magic
+wp_register_script('debug_script', JS_URL.'/debug.addIndicators.js.min.js', array('jquery'),'1.1', true);
+wp_enqueue_script('debug_script');
+wp_register_script('scroll_script', JS_URL.'/ScrollMagic.js', array('jquery'),'1.1', true);
+wp_enqueue_script('scroll_script');
+wp_register_script('magic_script', JS_URL.'/ScrollMagic.min.js', array('jquery'),'1.1', true);
+wp_enqueue_script('magic_script');
 
 
 // FONTS
@@ -45,6 +52,12 @@ wp_enqueue_style( 'contact_style' );
 // home.css
 wp_register_style( 'home_style', CSS_URL.'/home.css' );
 wp_enqueue_style( 'home_style' );
+// recette.css
+wp_register_style( 'recette_style', CSS_URL.'/recette.css' );
+wp_enqueue_style( 'recette_style' );
+// footer.css
+wp_register_style( 'footer_style', CSS_URL.'/footer.css' );
+wp_enqueue_style( 'footer_style' );
 //bootstrap
 wp_register_style( 'bootstrap_style', CSS_URL.'/bootstrap.min.css' );
 wp_enqueue_style( 'bootstrap_style' );
