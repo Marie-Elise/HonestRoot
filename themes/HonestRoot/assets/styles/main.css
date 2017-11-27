@@ -106,7 +106,7 @@ h4 a:hover {
 }
 
 .menu-honest-root .menu-btn:checked ~ .menu-honest-root-container .menu_header {
-  max-height: 240px;
+  max-height: 320px;
 }
 
 .menu-honest-root .menu-btn:checked ~ .menu-icon .navicon {
