@@ -2,7 +2,7 @@
 /*Template name: concept */
  get_header(); //appel du template header.php  ?>
 
-<div id="content" class="container-fluid concept page">
+<div class="container-fluid conceptpage">
   <?php
   $args=array(
     'post_type' => 'concept',
@@ -47,6 +47,7 @@
   /* Restore original Post Data */
   wp_reset_postdata();
   ?>
+  
 </div><!-- /content -->
-
+</div>
 <?php get_footer(); //appel du template footer.php ?>

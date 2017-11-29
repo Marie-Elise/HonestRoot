@@ -4,7 +4,6 @@
 .concepts {
     margin-top: 100px;
 }
-
 div.rectangle.origine{
     z-index: -1;
     width:800px;
@@ -60,7 +59,7 @@ h2.title.gammeesprit{
 /**** gammeforce ****/
 div.rectangle.gammeforce{
     z-index: -1;
-    width:800px;
+    width:700px;
     height:500px;
     background:#C72C48;
     display: inline-block;
@@ -115,7 +114,7 @@ div.textsecond.gammeenergie{
 /**** gammedetox ****/
 div.rectangle.gammedetox {
     z-index: -1;
-    width:800px;
+    width:700px;
     height:500px;
     background:#A7B635;
     display: inline-block;
@@ -169,42 +168,74 @@ h2.title.gout {
 @media only screen and (min-width: 375px) and (max-width: 667px) {
     .concept {
         margin-top: 0px;
-        margin-bottom: 200px;
+        margin-bottom: 0px;
+    }
+    div.rectangle.gammeforce{
+        margin-top: 40px;
+    }
+    div.rectangle.gammedetox{
+        margin-top: 40px;
+    }
+    div.text-concept.gout{
+        margin-top: -350px;
     }
     h2.title.origine{
         font-size: 80px;
     }
+    div.rectangle.origine{
+        width:300px;
+        height:400px;
+    }
+    div.image-concept.origine img{
+        width: 85%;
+        height: 100%;
+    }
     div.rectanglesecond.origine{
-        z-index: -1;
-        width:700px;
+        width:350px;
         height:450px;
-        background:#9D0C22;
     }
     .origine p{
-        font-family: 'Nunito', sans-serif;
         font-size: 18px;
-        color: #ffffff;
-        position :absolute;
         width:320px;
-        margin: 20px 20px;
+        margin: 15px 20px;
     }
     .nosgammes{
-        font-size: 90px;
+        font-size: 70px;
+    }
+    div.image-concept.gammeesprit img{
+        width: 70%;
+        height: 100%;
     }
     h2.title.gammeesprit{
         font-size: 75px;
+    }
+    div.image-concept.gammeforce img{
+        width: 70%;
+        height: 100%;
     }
     h2.title.gammeforce{
         font-size: 75px;
         color: #C72C48;
     }
+    div.image-concept.gammeenergie img{
+        width: 70%;
+        height: 100%;
+    }
     h2.title.gammeenergie{
         font-size: 75px;
         margin-top: 100px;
     }
+    div.image-concept.gammedetox img{
+        width: 70%;
+        height: 100%;
+    }
     h2.title.gammedetox {
         font-size: 75px;
         margin-top: 100px;
+    }
+    div.image-concept.gout img{
+        width: 70%;
+        height: 100%;
     }
     h2.title.gout {
         font-size: 40px;

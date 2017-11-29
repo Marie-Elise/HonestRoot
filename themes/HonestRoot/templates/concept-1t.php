@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="col-md-6 col-xs-12">
-            <div class="text-concept">
+            <div class="text-concept <?= $cat[0]->slug ?>">
                 <h2 class="title <?= $cat[0]->slug ?>"><?php the_title(); ?></h2>
                 <div class="text <?= $cat[0]->slug ?>"><?php the_content(); ?></div>
                 <div class="rectanglesecond <?= $cat[0]->slug ?>"></div>
