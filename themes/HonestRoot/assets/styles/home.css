@@ -1,11 +1,23 @@
 /***** HOME ******/
 
 .homesmoothies {
-    margin-top: 70px;
-  }
+  margin-top: 70px;
+}
   
+.homebutton {
+  color: #71AC29;
+  text-align: center;
+  padding-top: 30px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .homesmoothies {
+    margin-top: 150px;
+  }
+    
   .homebutton {
     color: #71AC29;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 70px;
   }
+}
