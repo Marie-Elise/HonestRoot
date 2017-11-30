@@ -22,3 +22,4 @@
     </div>
  </div>
 </div> <!-- /content -->
+<?php get_footer(); //appel du template footer.php ?>

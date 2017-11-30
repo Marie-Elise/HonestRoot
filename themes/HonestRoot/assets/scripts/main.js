@@ -1,3 +1,4 @@
+/* owl carousel prdouits */
 jQuery(document).ready(function() {
   jQuery(".owl-carousel").owlCarousel({
     nav:true,
@@ -18,7 +19,35 @@ jQuery(document).ready(function() {
    }
   });
 });
+/* Scrool Home */
+console.log('couocu')
+var checkScroll = true;
+var lethargy = new Lethargy();
+  function lethargyScroll(e) {
+    if (window.innerWidth > 768) {
+        e.preventDefault()
+        e.stopPropagation()
+        if (lethargy.check(e) === -1) {
 
+            if(checkScroll === true) {
+                document.location.href="/concept"
+                checkScroll = false;
+            }
+        }
+      }
+  }
+
+  function scrollEvent() {
+      console.log('scroll')
+    var content = document.querySelector('#content');
+    content.addEventListener('mousewheel', function(e) { lethargyScroll(e) })
+    content.addEventListener('DOMMouseScroll', function(e) { lethargyScroll(e) })
+    content.addEventListener('wheel', function(e) { lethargyScroll(e) })
+    content.addEventListener('MozMousePixelScroll', function(e) { lethargyScroll(e) })
+  }
+  scrollEvent();
+
+/* pop up  page recette */
 var recette_articles = document.querySelectorAll('.recette article'),
 recette_images = document.querySelectorAll('.recette-image'),
 recette_nombre = document.querySelectorAll('.recette-nombre'),

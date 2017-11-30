@@ -2,6 +2,11 @@
 function ajout_scripts() {
 
 // ENREGISTREMENT SCRIPTS
+
+wp_register_script('lethargy_script', JS_URL.'/lethargy.min.js', array('jquery'),'1.1', true);
+wp_enqueue_script('lethargy_script');
+
+
 // main.js
 wp_register_script('main_script', JS_URL.'/main.js', array('jquery'),'1.1', true);
 wp_enqueue_script('main_script');
@@ -16,13 +21,6 @@ wp_register_script('jquery_script', JS_URL.'/jquery.min.js', array('jquery'),'1.
 wp_enqueue_script('jquery_script');
 wp_register_script('owl_script', JS_URL.'/owl.carousel.min.js', array('jquery'),'1.1', true);
 wp_enqueue_script('owl_script');
-// scroll magic
-wp_register_script('debug_script', JS_URL.'/debug.addIndicators.js.min.js', array('jquery'),'1.1', true);
-wp_enqueue_script('debug_script');
-wp_register_script('scroll_script', JS_URL.'/ScrollMagic.js', array('jquery'),'1.1', true);
-wp_enqueue_script('scroll_script');
-wp_register_script('magic_script', JS_URL.'/ScrollMagic.min.js', array('jquery'),'1.1', true);
-wp_enqueue_script('magic_script');
 
 
 // FONTS
