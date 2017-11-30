@@ -1,14 +1,4 @@
 /***** PAGE PRODUITS slider ******/
-.produit {
-  max-height: 100vh;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden; 
-}
-
 .owl-carousel{
     margin-top: 70px;
   } 
@@ -25,6 +15,7 @@
   visibility: hidden;
 }
 .owl-item.center>div h2.detox a {
+  z-index: -1000;
   font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: #A7B635;
@@ -34,6 +25,7 @@
   margin-top: -250px;
 }
 .owl-item.center>div h2.energie a {
+  z-index: -1000;
   font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: #F2CF40;
@@ -43,6 +35,7 @@
   margin-top: -250px;
 }
 .owl-item.center>div h2.esprit a {
+  z-index: -1000;
   font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: #4D537E;
@@ -52,6 +45,7 @@
   margin-top: -250px;
 }
 .owl-item.center>div h2.force a {
+  z-index: -1000;
   font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: #C72C48;
@@ -87,59 +81,48 @@
 }
   
 @media only screen and (min-width: 800px) and (max-width: 1280px) {
-  .produit {
-    max-height: 100vh;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-  }
+
   .owl-item .item .thumbail img{
     width: 40%;
     height: auto;
   }
   .owl-item.center>div h2.detox a {
-    z-index: 1000;
+    z-index: -1000;
     position: relative;
     font-size: 250px;
     margin-left: -340px;
     margin-top: -250px;
   }
   .owl-item.center>div h2.energie a {
-    z-index: 1000;
+    z-index: -1000;
     position: relative;
     font-size: 250px;
     margin-left: -460px;
     margin-top: -250px;
   }
   .owl-item.center>div h2.force a {
-    z-index: 1000;
+    z-index: -1000;
     position: relative;
     font-size: 250px;
     margin-left: -340px;
     margin-top: -250px;
   }
   .owl-item.center>div h2.esprit a {
-    z-index: 1000;
+    z-index: -1000;
     position: relative;
     font-size: 250px;
     margin-left: -340px;
     margin-top: -250px;
   }
+  .owl-prev {
+    left: 30%;
+  }
+  .owl-next {
+    left: 58%;
+  }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 667px) {
-  .produit {
-    max-height: 100vh;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-  }
   .owl-item .item .thumbail img{
     width: 40%;
     height: auto;
@@ -171,6 +154,12 @@
     font-size: 80px;
     margin-left: 20px;
     margin-top: -280px;
+  }
+  .owl-prev {
+    left: 0%;
+  }
+  .owl-next {
+    left: 65%;
   }
 }
 

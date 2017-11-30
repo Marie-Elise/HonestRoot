@@ -1,7 +1,7 @@
 <?php get_header(); //appel du template header.php  ?>
 
 <div class="produit">
-  <div id="content" class="container-fluid <?= $cat[0]->slug ?>">
+  <div class="container-fluid <?= $cat[0]->slug ?>">
   
   <div class="owl-carousel">
     <?php
@@ -27,7 +27,7 @@
             }
             $cat = wp_get_post_terms($post->ID, 'genre', array("fields" => "all"));
          ?>
-         <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+         <div class="col-xs-12">
            <h2 class="titleproduit <?= $cat[0]->slug ?>">
            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
           </h2>
