@@ -125,6 +125,11 @@
 }
 
 @media screen and (max-width: 542px){
+    .recette-rectangle h1{
+        position: absolute;
+        z-index: 2;
+        font-size: 18px;
+    }
     .recettes article{
         display: flex;
         flex-direction: column-reverse;
@@ -218,11 +223,11 @@
     display: none;
 }
 
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
     .detail-recette .detail-recette-texte div{
         padding-left: 80px;
     }
-}
+} */
 
 @media screen and (max-width: 992px){
     .detail-recette{
