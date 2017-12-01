@@ -32,9 +32,9 @@
   .left-part .detox {
     z-index: -1;
     font-family: 'Nunito', sans-serif;
-    font-size: 450%;
+    font-size: 630%;
     color: #A7B635;
-    max-width: 80%;
+    max-width: 100%;
     display: inline-block;
     position: absolute;
     left: 0;
@@ -42,9 +42,9 @@
   .left-part .esprit {
     z-index: -1;
     font-family: 'Nunito', sans-serif;
-    font-size: 450%;
+    font-size: 630%;
     color: #4D537E;
-    max-width: 80%;
+    max-width: 100%;
     display: inline-block;
     position: absolute;
     left: 0;
@@ -52,9 +52,9 @@
   .left-part .force {
     z-index: -1;
     font-family: 'Nunito', sans-serif;
-    font-size: 450%;
+    font-size: 630%;
     color: #C72C48;
-    max-width: 80%;
+    max-width: 100%;
     display: inline-block;
     position: absolute;
     left: 0;
@@ -62,9 +62,9 @@
   .left-part .energie {
     z-index: -1;
     font-family: 'Nunito', sans-serif;
-    font-size: 450%;
+    font-size: 630%;
     color: #F2CF40;
-    max-width: 80%;
+    max-width: 100%;
     display: inline-block;
     position: absolute;
     left: 0;
@@ -78,7 +78,8 @@
   }
   .left-part .image-png img {
     max-height: 100%;
-    max-width: 100%;
+    max-width: 90%;
+    margin-top: 100px;
   }
   .titre-categorie {
     font-family: 'Muli', sans-serif;
