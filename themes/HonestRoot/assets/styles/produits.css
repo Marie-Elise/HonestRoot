@@ -57,26 +57,23 @@
 .owl-item:not(.center)>div:hover {
   opacity: .75;
 }
-.owl-prev {
+i.fa.fa-chevron-left{ 
   z-index: 2;
-  font-family: 'Nunito', sans-serif;
-  font-size: 450%;
-  color: #E0E0E0;
-  max-width: 80%;
+  color: #BDBDBD;
   display: inline-block;
   position: absolute;
+  font-size: 100px;
   left: 35%;
   top: 30%;
 }
-.owl-next {
+i.fa.fa-chevron-right{ 
   z-index: 2;
-  font-family: 'Nunito', sans-serif;
-  font-size: 450%;
-  color: #E0E0E0;
-  max-width: 80%;
+  color: #BDBDBD;
+  height: 200px;
   display: inline-block;
   position: absolute;
-  left: 55%;
+  font-size: 100px;
+  left: 60%;
   top: 30%;
 }
   
@@ -114,11 +111,15 @@
     margin-left: -340px;
     margin-top: -250px;
   }
-  .owl-prev {
-    left: 30%;
+  i.fa.fa-chevron-left{ 
+    font-size: 80px;
+    left: 35%;
+    top: 30%;
   }
-  .owl-next {
-    left: 58%;
+  i.fa.fa-chevron-right{ 
+    font-size: 80px;
+    left: 60%;
+    top: 30%;
   }
 }
 
@@ -155,11 +156,15 @@
     margin-left: 20px;
     margin-top: -280px;
   }
-  .owl-prev {
-    left: 0%;
+  i.fa.fa-chevron-left{ 
+    font-size: 50px;
+    left: 5%;
+    top: 30%;
   }
-  .owl-next {
-    left: 65%;
+  i.fa.fa-chevron-right{ 
+    font-size: 50px;
+    left: 85%;
+    top: 30%;
   }
 }
 

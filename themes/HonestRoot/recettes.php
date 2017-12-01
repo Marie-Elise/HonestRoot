@@ -8,7 +8,7 @@ get_header(); ?>
     <div class="row">
         <div class="col-xs-12 col-lg-12 recette-rectangle">
             <div></div>
-            <h1>Découvrez notre sélection de recettes pour accompagner nos smoothies !</h1>
+            <h1>Découvrez notre sélection de recettes pour accompagner nos smoothies</h1>
         </div>
     </div>
     

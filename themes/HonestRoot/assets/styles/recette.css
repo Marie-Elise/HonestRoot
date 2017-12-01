@@ -2,7 +2,6 @@
 .recettes{
     margin-top: 0px;
 }
-
 .recette-rectangle{
     position: relative;
     display: flex;
@@ -11,7 +10,6 @@
     align-items: center;
     margin-top: 100px;
 }
-
 .recette-rectangle div{
     position: absolute;
     z-index: 1;
@@ -20,17 +18,15 @@
     height: 60px;
     left: -200px;
 }
-
 .recette-rectangle h1{
     position: absolute;
     z-index: 2;
     font-size: 30px;
+    font-family: 'Muli', sans-serif;
 }
-
 .recettes .recette{
     margin-top: 50px;
 }
-
 .recettes article{
     display: flex;
     flex-direction: column;
@@ -41,7 +37,6 @@
     height: 250px;
     margin-top: 50px;
 }
-
 .recettes article p{
     margin-top: 20px;
     margin-left: 10px;
@@ -49,23 +44,18 @@
     margin-bottom: 30px;
     font-weight: 600;
 }
-
 .color-red{
     color: #C72C48 !important;
 }
-
 .color-vert{
     color: #A7B635 !important;
 }
-
 .color-jaune{
     color: #E5C850 !important;
 }
-
 .color-violet{
     color: #4D537E !important;
 }
-
 .recette-nombre, .recette-color{
     display: none;
 }
@@ -74,18 +64,15 @@
     .recette-rectangle div{
         display: none;
     }
-    
     .recette-rectangle h1{
         color: #A7B635;
         font-size: 26px;
         margin-left: 30px;
         margin-right: 20px;
     }
-    
     .recettes .recette{
         margin-top: 80px;
     }
-    
     .recettes article{
         height: 270px;
     }
@@ -102,7 +89,6 @@
     .recette-name{
         width: 35%;
     }
-    
     .recettes article{
         display: flex;
         flex-direction: row;
@@ -113,11 +99,9 @@
         height: 250px;
         margin-left: 10%;
     }
-    
     .recettes .recette{
         margin-top: 30px;
     }
-    
     .recettes article{
         height: 200px;
     }
@@ -141,32 +125,25 @@
         margin-left: 0%;
         padding-top: 10px;
     }
-    
     .recettes article p{
         margin-top: 0px;
         margin-bottom: 10px;
     }
-    
     .recette-name{
         width: 100%;
     }
-    
     .recettes article:nth-of-type(1){
         margin-top: 40px;
     }
-    
 }
 
 /* PARTIE RECETTE SIMPLE */
-
 .close-recette{
     display: none;
 }
-
 .open-recette{
     display: block;
 }
-
 .recette-fermer img{
     float: right !important;
     padding-right: 20px;
@@ -174,7 +151,6 @@
     width: 40px;
     height: auto;
 }
-
 .detail-recette{
     position: absolute !important;
     z-index: 5;
@@ -182,87 +158,76 @@
     top: 0px;
     background: white;
 }
-
 .detail-recette .detail-recette-texte{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     height: 100%;
-/*    width: 100vw;*/
     overflow-y: auto;
 }
-
 .detail-recette-texte h2{
     font-size: 26px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
+    color: #A7B635;
+    font-family: 'Nunito', sans-serif;
 }
-
+.detail-recette-texte h3{
+    color: #A7B635;
+    font-family: 'Nunito', sans-serif;
+}
 .recette_temps{
     margin-bottom: 20px;
 }
-
 .recette_temps li{
     list-style-type: none; 
     float: left;
     width: 47%;
 }
-
 .recette_ingredient ul li{
     width: 47%;
     display: inline-block;
 }
-
 .recette_preparation ul{
     margin-right: 60px;
 }
-
+.recette_preparation ul li{
+    margin-right: 60px;
+    font-family: 'Nunito', sans-serif;
+}
 .recette-responsive-image{
     display: none;
 }
-
-/* @media screen and (max-width: 1200px){
-    .detail-recette .detail-recette-texte div{
-        padding-left: 80px;
-    }
-} */
 
 @media screen and (max-width: 992px){
     .detail-recette{
         position: absolute;
     }
-    
     .detail-recette .col-lg-6:nth-of-type(1){
         display: none;
     }
-    
     .detail-recette .detail-recette-texte{
         overflow: hidden;
         height: 100%;
     }
-    
     .detail-recette .detail-recette-texte div{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
     }
-    
     .recette_temps li{
         text-align: center;
     }
-
     .recette_ingredient ul li{
         width: 35%;
         margin: auto;
     }
-    
     .recette_ingredient ul li:nth-of-type(odd){
         margin-left: 18%;
     }
-    
     .recette-responsive-image{
         display: block;
         text-align: center;
@@ -276,19 +241,17 @@
 }
 
 @media screen and (max-width: 689px){
-    
     .recette_ingredient ul{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
     }
-    
     .recette_ingredient ul li{
         width: 100%;
         text-align: inherit;
+        font-family: 'Nunito', sans-serif;
     }
-    
     .recette_ingredient ul li:nth-of-type(odd){
         margin-left: 0px;
     }
@@ -298,6 +261,7 @@
     .recette_temps li{
         width: 100%;
         float: none;
+        font-family: 'Nunito', sans-serif;
     }
 }
 
@@ -305,16 +269,13 @@
     .recettes h2{
         font-size : 22px;
     }
-    
     .recettes h3{
         font-size: 18px;
         margin-top: 10px;
     }
-    
     .recettes ul{
         padding-left: 0px;
     }
-    
     .recette_preparation ul{
         padding-left: 40px;
     }
